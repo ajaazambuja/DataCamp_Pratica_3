@@ -1,4 +1,4 @@
-# Atualiza/cria o .gitignore
+# 1.1 Crie/atualize o .gitignore (ignora .venv e .env)
 @"
 # Virtual env
 .venv/
@@ -20,11 +20,3 @@ __pycache__/
 .idea/
 .DS_Store
 "@ | Set-Content .gitignore
-
-# Secrets
-.env
-.env.*
-
-# Artifacts
-outputs/
-reports/

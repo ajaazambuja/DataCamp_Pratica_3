@@ -1,0 +1,24 @@
+# Virtual env
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.ipynb_checkpoints/
+
+# IDE/OS
+.vscode/
+.idea/
+.DS_Store
+
+# Secrets
+.env
+.env.*
+
+# Artifacts
+outputs/
+reports/

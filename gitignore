@@ -1,6 +1,11 @@
+# Atualiza/cria o .gitignore
+@"
 # Virtual env
 .venv/
 venv/
+
+# Secrets
+.env
 
 # Python cache
 __pycache__/
@@ -14,6 +19,7 @@ __pycache__/
 .vscode/
 .idea/
 .DS_Store
+"@ | Set-Content .gitignore
 
 # Secrets
 .env

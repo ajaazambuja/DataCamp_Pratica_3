@@ -1,3 +1,4 @@
+# 1) Garantir as regras no .gitignore (inclui .env)
 @"
 # Virtual env
 .venv/
@@ -5,17 +6,4 @@ venv/
 
 # Secrets
 .env
-
-# Python cache
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-*.egg-info/
-.ipynb_checkpoints/
-
-# IDE/OS
-.vscode/
-.idea/
-.DS_Store
-"@ | Set-Content .gitignore -Encoding UTF8
+"@ | Add-Content .gitignore
